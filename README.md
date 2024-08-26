@@ -44,3 +44,18 @@ python manage.py runserver
 
 **Access the API locally:**
 Navigate to http://127.0.0.1:8000/api/ in your browser or use a tool like Postman.
+
+**API Endpoints Documentation**
+GET /api/todos/: Retrieve a list of all todo items.
+
+POST /api/todos/: Create a new todo item.
+
+GET /api/todos/{id}/: Retrieve a specific todo item by ID.
+
+PUT /api/todos/{id}/: Update a specific todo item by ID.
+
+DELETE /api/todos/{id}/: Delete a specific todo item by ID.
+
+POST /api/token/: Obtain JWT token for authentication.
+
+POST /api/token/refresh/: Refresh JWT token.
